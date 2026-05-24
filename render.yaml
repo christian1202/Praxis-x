@@ -8,7 +8,7 @@ services:
     rootDir: backend
     envVars:
       - key: FRONTEND_URL
-        value: https://praxis-blush-six.vercel.app
+        value: https://praxis-x.vercel.app
       - key: SUPABASE_URL
         sync: false
       - key: SUPABASE_SERVICE_KEY
@@ -23,10 +23,10 @@ services:
     rootDir: auth-server
     envVars:
       - key: FRONTEND_URL
-        value: https://praxis-blush-six.vercel.app
+        value: https://praxis-x.vercel.app
       - key: DATABASE_URL
         sync: false
       - key: BETTER_AUTH_SECRET
         sync: false
       - key: BETTER_AUTH_URL
-        sync: false
+        value: https://praxis-auth-server.onrender.com
